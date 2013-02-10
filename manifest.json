@@ -1,0 +1,16 @@
+{
+	"permissions": ["webRequest", "webRequestBlocking", "http://*.wikipedia.org/*"],
+	"background": {
+		"scripts": ["wikipedia-redirect.js"]
+	},
+	"name": "HTTPS Wikipedia",
+	"version": "1.0.0",
+	"manifest_version": 2,
+	"description": "Redirects all requests for Wikipedia to use HTTPS.",
+	"icons": {
+		 "16": "16.png",
+		 "48": "48.png",
+		"128": "128.png"
+	},
+	"homepage_url": "https://github.com/whymarrh/wikipedia-redirect.js"
+}

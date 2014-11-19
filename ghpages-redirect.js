@@ -6,7 +6,7 @@ chrome.webRequest.onBeforeRequest.addListener(
 	},
 	// filters
 	{
-		urls: ["http://*.wikipedia.org/*"]
+		urls: ["http://*.github.io/*"]
 	},
 	// extraInfoSpec
 	["blocking"]
